@@ -1,0 +1,3 @@
+{"username": "de", "password": "de", "first_name": "de", "last_name": "de", "products": []}
+{"username": "de", "password": "de", "first_name": "de", "last_name": "de", "products": []}
+{"username": "de", "password": "de", "first_name": "de", "last_name": "de", "products": []}
