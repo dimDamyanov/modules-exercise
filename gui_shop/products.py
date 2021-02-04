@@ -4,7 +4,15 @@ from gui_shop.canvas import tk
 from json import loads
 from PIL import Image, ImageTk
 import os
+
 base_folder = os.path.dirname(__file__)
+
+
+def buy_product(button):
+    _, product_id = button.cget('text').split()
+    product_id = int(product_id)
+    print(product_id)
+    pass
 
 
 def render_products():
@@ -21,5 +29,7 @@ def render_products():
             img_label = Label(image=photo)
             img_label.image = photo
             img_label.grid(row=1, column=column_counter)
-            Button(tk, text=f'Buy {current_product.get("id")}').grid(row=2, column=column_counter)
+            button = Button(tk, text=f'Buy {current_product.get("id")}')
+            button.configure(command=lambda b=button: buy_product(b))
+            button.grid(row=2, column=column_counter)
             column_counter += 1
