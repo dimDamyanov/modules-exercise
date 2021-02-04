@@ -1,3 +1,1 @@
-{"username": "de", "password": "de", "first_name": "de", "last_name": "de", "products": []}
-{"username": "de", "password": "de", "first_name": "de", "last_name": "de", "products": []}
-{"username": "test", "password": "123", "first_name": "tesov", "last_name": "tesov", "products": []}
+{"username": "de", "password": "de", "first_name": "de", "last_name": "de", "products": [1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]}

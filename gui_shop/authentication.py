@@ -11,6 +11,8 @@ def login(username, password):
         for line in lines:
             user_name, pass_word = line[:-1].split(', ')
             if user_name == username and pass_word == password:
+                with open('gui_shop/db/current_user.txt', 'w') as cu_file:
+                    cu_file.write(username)
                 render_products()
                 return
         render_login(errors=True)
